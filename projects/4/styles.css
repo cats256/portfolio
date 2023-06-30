@@ -1,0 +1,26 @@
+body {
+  background: midnightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 256px;
+  width: 512px;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
