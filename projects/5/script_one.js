@@ -1,6 +1,6 @@
 const resizeText = (element) => {
   const container = document.querySelector(element);
-  let fontSize = 512;
+  let fontSize = 80;
 
   do {
     fontSize--;
