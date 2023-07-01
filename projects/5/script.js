@@ -29,6 +29,26 @@ const setupGrid = (size) => {
   }
 };
 
+const resizeText = () => {
+  let fontSize = 1000;
+  text.style.fontSize = fontSize + "px";
+  const containerWidth = container.offsetWidth;
+
+  if (text.offsetWidth > containerWidth) {
+    while (text.offsetWidth > containerWidth) {
+      fontSize -= 1;
+      text.style.fontSize = fontSize + "px";
+    }
+  } else {
+    while (text.offsetWidth < containerWidth) {
+      fontSize += 1;
+      text.style.fontSize = fontSize + "px";
+    }
+    fontSize -= 1;
+    text.style.fontSize = fontSize + "px";
+  }
+};
+
 const values = [2, 4, 8, 16, 32, 64, 128];
 
 const grid = document.querySelector(".grid-container");
@@ -102,6 +122,13 @@ slider.onchange = (e) => {
   setupGrid(currentSize);
 };
 
+const container = document.querySelector(".title-container");
+const text = document.querySelector(".title");
+
+container.addEventListener("DOMContentLoaded", resizeText());
+
 window.onload = () => {
   setupGrid(16);
+  window.addEventListener("resize", resizeText);
+  resizeText();
 };
