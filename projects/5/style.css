@@ -13,8 +13,19 @@ body {
   width: 512px;
 }
 
+.title-container {
+  position: relative;
+  width: 512px;
+  height: 128px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   margin: 16px auto;
+  position: absolute;
+  align-self: center;
   white-space: nowrap;
 }
 
@@ -73,19 +84,4 @@ button {
 
 .slider {
   width: 160px;
-}
-
-.title-container {
-  position: relative;
-  width: 512px;
-  height: 128px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  position: absolute;
-  align-self: center;
-  white-space: nowrap;
 }
