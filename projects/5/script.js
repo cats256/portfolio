@@ -77,8 +77,8 @@ solidButton.onclick = () => {
   mode = "solid";
   solidButton.style.backgroundColor = "gray";
   solidButton.style.color = "white";
-  shadeButton.style.backgroundColor = "#ededed";
-  shadeButton.style.color = "black";
+  shadeButton.style.backgroundColor = "";
+  shadeButton.style.color = "";
   eraseButton.style.backgroundColor = "";
   eraseButton.style.color = "";
 };
@@ -87,8 +87,8 @@ eraseButton.onclick = () => {
   mode = "erase";
   eraseButton.style.backgroundColor = "gray";
   eraseButton.style.color = "white";
-  shadeButton.style.backgroundColor = "#ededed";
-  shadeButton.style.color = "black";
+  shadeButton.style.backgroundColor = "";
+  shadeButton.style.color = "";
   solidButton.style.backgroundColor = "";
   solidButton.style.color = "";
 };
@@ -125,10 +125,9 @@ slider.onchange = (e) => {
 const container = document.querySelector(".title-container");
 const text = document.querySelector(".title");
 
-container.addEventListener("DOMContentLoaded", resizeText());
-
 window.onload = () => {
   setupGrid(16);
-  window.addEventListener("resize", resizeText);
   resizeText();
+  shadeButton.style.backgroundColor = "gray";
+  shadeButton.style.color = "white";
 };
