@@ -30,26 +30,29 @@ const setupGrid = (size) => {
 };
 
 const resizeText = () => {
-  let fontSize = 1000;
-  text.style.fontSize = fontSize + "px";
-  const containerWidth = container.offsetWidth;
+  let fontSize = 76;
+  const setFontSize = () => (text.style.fontSize = fontSize + "px");
 
-  if (text.offsetWidth > containerWidth) {
-    while (text.offsetWidth > containerWidth) {
+  setFontSize();
+
+  if (text.offsetWidth > container.offsetWidth) {
+    while (text.offsetWidth > container.offsetWidth) {
       fontSize -= 1;
-      text.style.fontSize = fontSize + "px";
+      setFontSize();
     }
   } else {
-    while (text.offsetWidth < containerWidth) {
+    while (text.offsetWidth < container.offsetWidth) {
       fontSize += 1;
-      text.style.fontSize = fontSize + "px";
+      setFontSize();
     }
     fontSize -= 1;
-    text.style.fontSize = fontSize + "px";
+    setFontSize();
   }
 };
 
 const values = [2, 4, 8, 16, 32, 64, 128];
+let currentSize = 16;
+let mode = "shade";
 
 const grid = document.querySelector(".grid-container");
 const shadeButton = document.querySelector(".shade");
@@ -59,9 +62,8 @@ const saveButton = document.querySelector(".save");
 const clearButton = document.querySelector(".clear");
 const slider = document.querySelector(".slider");
 const size = document.querySelector(".size");
-
-let currentSize = 16;
-let mode = "shade";
+const container = document.querySelector(".title-container");
+const text = document.querySelector(".title");
 
 shadeButton.onclick = () => {
   mode = "shade";
@@ -103,7 +105,7 @@ saveButton.onclick = () => {
       link.click();
     })
     .catch(function (error) {
-      console.error("Oops, something went wrong!", error);
+      window.alert("Oops, something went wrong! Please try again", error);
     });
 };
 
@@ -117,17 +119,14 @@ slider.addEventListener("input", () => {
 });
 
 slider.onchange = (e) => {
-  currentSize = values[e.target.value];
   grid.innerHTML = "";
+  currentSize = values[e.target.value];
   setupGrid(currentSize);
 };
 
-const container = document.querySelector(".title-container");
-const text = document.querySelector(".title");
-
 window.onload = () => {
-  setupGrid(16);
-  resizeText();
   shadeButton.style.backgroundColor = "gray";
   shadeButton.style.color = "white";
+  resizeText();
+  setupGrid(16);
 };

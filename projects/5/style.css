@@ -1,5 +1,5 @@
 :root {
-  background-color: #ededed;
+  background-color: rgb(237, 237, 237);
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -7,10 +7,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.grid-container {
-  width: 512px;
 }
 
 .title-container {
@@ -34,11 +30,12 @@ body {
   background-color: white;
   display: grid;
   height: 512px;
+  width: 512px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 8px;
 }
 
 .grid-item {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 .size {
@@ -55,12 +52,9 @@ body {
   flex: 1;
 }
 
-.settings,
-.right {
-  flex: 1;
-}
 .settings {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
@@ -70,11 +64,11 @@ body {
 button {
   height: 40px;
   width: 160px;
-  border: 1px solid rgb(150, 150, 150);
   cursor: pointer;
   background-color: rgb(241, 241, 241);
-  box-sizing: border-box;
+  border: 1px solid rgb(150, 150, 150);
   color: black;
+  box-sizing: border-box;
   font-family: "Inter";
   font-weight: 500;
   text-align: center;
