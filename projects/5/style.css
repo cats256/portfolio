@@ -50,6 +50,11 @@ body {
   gap: 64px;
 }
 
+.main::after {
+  content: "";
+  flex: 1;
+}
+
 .settings,
 .right {
   flex: 1;
@@ -87,6 +92,6 @@ button:hover {
   gap: 16px;
 }
 
-.slider {
+input {
   width: 160px;
 }
