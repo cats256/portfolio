@@ -70,9 +70,9 @@ body {
 button {
   height: 40px;
   width: 160px;
-  border: 1px solid rgb(150, 160, 150);
+  border: 1px solid rgb(150, 150, 150);
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
   box-sizing: border-box;
   color: black;
   font-family: "Inter";
