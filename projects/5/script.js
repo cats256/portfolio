@@ -124,6 +124,10 @@ slider.onchange = (e) => {
   setupGrid(currentSize);
 };
 
+window.addEventListener('resize', function() {
+  resizeText();
+});
+
 window.onload = () => {
   shadeButton.style.backgroundColor = "gray";
   shadeButton.style.color = "white";

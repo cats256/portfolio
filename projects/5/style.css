@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  flex-shrink: 1;
 }
 
 .title-container {
@@ -88,4 +89,88 @@ button:hover {
 
 input {
   width: 160px;
+}
+
+@media (max-width: 1024px) {
+  .title-container {
+    width: 256px;
+    height: 64px;
+  }
+
+  .title {
+    margin: 8px auto;
+  }
+
+  .grid-container {
+    height: 256px;
+    width: 256px;
+  }
+
+  .main {
+    gap: 32px;
+  }
+
+  .settings {
+    gap: 16px;
+  }
+
+  button {
+    height: 20px;
+    width: 80px;
+    font-size: 7px;
+  }
+
+  .slider-container {
+    gap: 8px;
+  }
+
+  input {
+    width: 80px;
+  }
+
+  .size {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 512px) {
+  .title-container {
+    width: 128px;
+    height: 32px;
+  }
+
+  .title {
+    margin: 4px auto;
+  }
+
+  .grid-container {
+    height: 128px;
+    width: 128px;
+  }
+
+  .main {
+    gap: 16px;
+  }
+
+  .settings {
+    gap: 8px;
+  }
+
+  button {
+    height: 10px;
+    width: 40px;
+    font-size: 4px;
+  }
+
+  .slider-container {
+    gap: 4px;
+  }
+
+  input {
+    width: 40px;
+  }
+
+  .size {
+    font-size: 8px;
+  }
 }
