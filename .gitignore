@@ -1,3 +1,6 @@
 fly.toml
 .dockerignore
 Dockerfile
+.env
+.eslintrc.js
+.gitignore
