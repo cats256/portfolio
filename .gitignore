@@ -3,4 +3,3 @@ fly.toml
 Dockerfile
 .env
 .eslintrc.js
-.gitignore
