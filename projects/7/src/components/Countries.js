@@ -72,12 +72,14 @@ function Weather({ city }) {
         <img src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@4x.png`} width="200" alt={`${city}'s weather icon`} />
         <div>
           Wind speed:
+          {' '}
           {weatherData.wind.speed}
           {' '}
           m/s
         </div>
         <div>
           Temperature:
+          {' '}
           {weatherData.main.temp}
           {' '}
           K
