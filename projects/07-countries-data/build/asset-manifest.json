@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio/projects/07-countries-data/build/static/css/main.f15287c6.css",
+    "main.js": "/portfolio/projects/07-countries-data/build/static/js/main.9ed0704d.js",
+    "index.html": "/portfolio/projects/07-countries-data/build/index.html",
+    "main.f15287c6.css.map": "/portfolio/projects/07-countries-data/build/static/css/main.f15287c6.css.map",
+    "main.9ed0704d.js.map": "/portfolio/projects/07-countries-data/build/static/js/main.9ed0704d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f15287c6.css",
+    "static/js/main.9ed0704d.js"
+  ]
+}

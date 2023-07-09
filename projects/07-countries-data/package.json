@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://cats256.github.io/portfolio/projects/7/build",
+  "homepage": "https://cats256.github.io/portfolio/projects/07-countries-data/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
