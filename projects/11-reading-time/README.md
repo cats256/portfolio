@@ -1,4 +1,4 @@
-Installation: Download the folder then load extension unpacked in chrome://extensions with developer mode enabled
+Installation: Download the folder then load the extension unpacked in chrome://extensions with developer mode enabled
 
 https://github.com/cats256/portfolio/assets/59489624/2463a638-7453-4502-8992-319ec9edbd4e
 
