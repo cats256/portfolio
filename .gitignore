@@ -3,3 +3,4 @@ fly.toml
 Dockerfile
 .env
 .eslintrc.js
+node_modules
