@@ -49,3 +49,13 @@ Async/await, shadow DOM, web-accessible resource
 - Lotus icon is from uxwing.com, dangerous icon is from google material, and icon.png is self-made
 
 - For more free icon sites without attribution look up uxwing.com on Twitter and similar
+
+- Set Custom Time, Disable/Enable Focus Mode, Options
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Aalarm_add%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Atimer%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Asettings%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Apower_settings_new%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Atoggle_on%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+  https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Atoggle_off%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048
+
+-
