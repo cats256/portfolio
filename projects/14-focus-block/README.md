@@ -10,6 +10,8 @@ Async/await, shadow DOM, web-accessible resource
 
 ### Ideas to implement
 
+- Refactor code
+  
 - Hover mode for my button similar to my Etch-a-sketch project
 
 - Password protection before disabling
