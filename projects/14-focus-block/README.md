@@ -10,6 +10,8 @@ Async/await, shadow DOM, web-accessible resource
 
 ### Ideas to implement
 
+- Calculate the percent increase from last week's daily average (↑30%)
+
 - Refactor code
   
 - Hover mode for my button similar to my Etch-a-sketch project
