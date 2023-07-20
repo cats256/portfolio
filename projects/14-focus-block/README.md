@@ -10,6 +10,8 @@ Async/await, shadow DOM, web-accessible resource
 
 ### Ideas to implement
 
+- Be able to change font
+  
 - Calculate the percent increase from last week's daily average (↑30%)
 
 - Refactor code
