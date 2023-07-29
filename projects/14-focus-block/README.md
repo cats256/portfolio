@@ -19,6 +19,12 @@ Async/await, shadow DOM, web-accessible resource
 - Add alt attribute when hover over the buttons
 
 - Hover mode for my buttons similar to my Etch-a-sketch project
+- Look for best small cap fonts
+- Be able to change font
+- Calculate the percent increase from last week's daily average (↑30%)
+
+- Refactor code
+- Hover mode for my button similar to my Etch-a-sketch project
 
 - Password protection before disabling
 
