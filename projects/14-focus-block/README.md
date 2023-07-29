@@ -10,7 +10,15 @@ Async/await, shadow DOM, web-accessible resource
 
 ### Ideas to implement
 
-- Hover mode for my button similar to my Etch-a-sketch project
+- Post demo video in various subreddits, including r/chrome, r/firefox
+
+- Add to blocklist, remove from blocklist, add to whitelist, remove from whitelist
+
+- Check if site is blocked when switching to a new tab with focus mode enabled
+
+- Add alt attribute when hover over the buttons
+
+- Hover mode for my buttons similar to my Etch-a-sketch project
 
 - Password protection before disabling
 
